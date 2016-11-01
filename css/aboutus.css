@@ -1,0 +1,83 @@
+.aboutus .aboutuswelcome {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.aboutus h4 ,.aboutus h3 {
+    font-family: OpenSans-Semibold;
+    text-align: center;
+    color: #000;
+}
+.aboutus span.homesweethome {
+    color: #00aff0;
+}
+.aboutsectiontext {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: OpenSans-Regular;
+    text-align: center;
+    font-size: 13px;
+}
+.aboutline img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.aboutus .excerpt {
+	font-family: OpenSans-Regular;
+	font-size: 13px;
+}
+.aboutus .abone {
+    font-family: OpenSans-Semibold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.areaaboutus {
+    background-color: #e3eaf2;
+    height: 150px;
+    width: 440px;
+    border: 1px solid #e3eaf2;
+    padding: 7px;
+}
+.aboutus .divider {
+   display: block;
+margin-top: 10px;
+margin-bottom: 5px;
+overflow: hidden;
+}
+.aboutus .divider .lblaboutus {
+    text-align: right;
+    font-family: OpenSans-Regular;
+}
+.aboutus .divider .txtaboutus {
+    width: 175px;
+    height: 35px;
+    border: 1px solid #e3eaf2;
+    padding: 5px;
+	 background-color: #e3eaf2;
+}
+.aboutus .divider .btnsave {
+    background-image: url('../assets/images/btnsave.png');
+    width: 189px;
+    background-repeat: no-repeat;
+    height: 30px;
+	border:0px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.aboutus .notice{
+	color:#000;
+}
+@media screen and (max-width: 767px){
+	.areaaboutus{
+		height: 120px;
+		width: 300px;
+	}
+	.aboutus .divider .lblaboutus {
+    text-align: left;
+	}
+	.aboutus .divider .txtaboutus {
+    width: 290px;
+	}
+}

@@ -1,0 +1,45 @@
+.contactus .contactuswelcome{
+margin-left:auto;
+margin-right:auto;
+margin-top:15px;
+margin-bottom:15px;
+}
+.contactus h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+	font-family: OpenSans-Semibold;
+}
+.contactus p{
+font-family: OpenSans-Semibold;
+}
+.contactus .contactitem {
+    padding-left: 15px;
+}
+.contactitemname {
+    width: 70px;
+    display: inline-block;
+}
+.contactushr img {
+    width: 100%;
+    height: auto;
+}
+.contactushr{
+	margin-top:15px;
+	margin-bottom:15px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.mainbranchimg{
+	float:left;
+	min-height:45px;
+	width:60px;
+}
+.mainbranchtxt{
+	min-height:45px;
+}
+.mainbranch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+	font-family: OpenSans-Semibold;
+}

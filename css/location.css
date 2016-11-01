@@ -1,0 +1,64 @@
+.location-content h4 {
+    font-family: 'Gabriela';
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+	padding-left:15px;
+	margin-bottom:15px;
+}
+.leftloc h5 {
+    font-family: "Gabriela";
+    font-weight: bold;
+    color: #000;
+    font-size: 17px;
+	margin-bottom:15px;
+}
+.addcon{
+	padding-left:0px;
+	padding-right:0px;
+}
+.leftaddcon{
+	padding-left:0px;
+	padding-right:0px;
+	margin-bottom:7px;
+}
+.rightaddcon{
+	padding-left:0px;
+	padding-right:0px;
+	margin-bottom:7px;
+}
+.rightaddcon p {
+    font-family: 'Opensans';
+    font-size: 13px;
+}
+.bohr{
+	border-bottom: 1px solid #f8b2da;
+    margin-bottom:7px;
+}
+.leftaddcon p {
+    font-family: 'Opensans';
+    font-size: 15px;
+    color: #000;
+}
+.rightloc h5 {
+    font-family: "Gabriela";
+    font-weight: bold;
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.location{
+	margin-bottom:10px;
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+	.locationfooter{
+	bottom: 0;
+	margin-bottom: 0;
+	border-width: 1px 0 0;
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+}
+

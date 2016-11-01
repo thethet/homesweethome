@@ -1,0 +1,197 @@
+*{margin: 0px; padding: 0px; outline: 0px;}
+@font-face{
+	font-family: 'OpenSans-Regular';
+	src: url('fonts/OpenSans-Regular.ttf');
+}
+@font-face{
+	font-family: 'OpenSans-Semibold';
+	src: url('fonts/OpenSans-Semibold.ttf');
+}
+@font-face{
+	font-family: 'Colaborate-Regular';
+	src: url('fonts/Colaborate-Regular.ttf');
+}
+@font-face{
+	font-family: 'OpenSans-SemiboldItalic';
+	src: url('fonts/OpenSans-SemiboldItalic.ttf');
+}
+body{
+	font-family:Helvetica,Arial,Sans-serif;
+	font-size:13px;
+	color:#555;
+	background-color:#f2f6fb;
+}
+.homepagebanner{
+    padding-left:0px;
+	padding-right:0px;
+}
+.homepagebanner img {
+    width: 100%;
+    height: auto;
+}
+.menu{
+	background-color: #227aff;
+	height: 55px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	border-radius:10px;
+}
+.logoimage {
+    border-style: solid;
+    border-width: 0px 2px 2px;
+    border-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 1px #d3d3d3;
+}
+.dsmenu{
+	padding-left:0px;
+	padding-right:0px;
+}
+.dsmenu .nav{
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-family: OpenSans-Regular;
+}
+.dsmenu .nav li{
+	height: 55px;
+	line-height: 12px;
+	text-align: center;
+	width: 20%;
+}
+.dsmenu .nav > li{
+	border-right:1px solid #227aff;
+	float:left;
+}
+.dsmenu .nav li a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	padding:0px;
+}
+.dsmenu .nav li a:hover,.dsmenu .nav li a:active,.dsmenu .nav li a:focus{
+	background-color: #227aff;
+	outline: 0px;
+}
+.dsmenu ul.nav li img {
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.mbmenu{
+	display:none;
+	padding-left:0px;
+	padding-right:0px;
+}
+.sitelogo img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.sitelogo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sitemenu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+	width:100%;
+	padding:0px;
+	background-color:#6ba9fb;
+	overflow:hidden;
+}
+.footersection{
+	margin-top:15px;
+	margin-bottom:15px;
+	height:100px;
+}
+.footersection h4 {
+    font-family: Colaborate-Regular;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.social a,.social a:hover,.social a:active,.social a:focus{
+	outline:0px;
+	text-decoration:none;
+}
+.ftofficehours {
+    font-family: Colaborate-Regular;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ftofficeaddress {
+    font-family: Colaborate-Regular;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.frmcontact .divider{
+	display:block;
+	margin-top:15px;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+.frmcontact .frmtxt {
+    width: 90%;
+    border: 1px solid #3679cb;
+    background-color: #3679cb;
+    padding: 5px;
+    border-radius: 8px;
+    height: 35px;
+	color:#fff;
+}
+.frmcontact .frmarea {
+    width: 100%;
+    border: 1px solid #3679cb;
+    background-color: #3679cb;
+    padding: 5px;
+    border-radius: 8px;
+    height: 75px;
+	color:#fff;
+}
+.frmcontact .btnsubmit {
+    width: 90px;
+    height: 37px;
+    font-family: Colaborate-Regular;
+    color: #578ccd;
+    font-size: 17px;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid #d6e6ef;
+}
+.reserved {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: OpenSans-Regular;
+}
+.notice{
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+}
+.menuactive{
+	color:red!important;
+}
+@media screen and (min-width: 768px) and (max-width: 980px){
+}
+@media screen and (max-width: 767px){
+	.menu{
+		display:none;
+	}
+	.mbmenu{
+		display:block;
+	}
+}

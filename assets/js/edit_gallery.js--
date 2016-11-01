@@ -1,0 +1,95 @@
+$(document).ready(function(){
+    
+   $link = $("#add_more").data("link");
+   
+   $("#add_more").on("click", function(){
+        $("#galle_img").trigger("click");
+   });
+   
+   $("#galle_img").on("change", function(){
+       $linked = $("#galle_img")[0].files[0];
+       insert_galle($link);
+   });
+   
+   delete_image();
+   
+});
+
+function delete_image(){
+    $(".del-image").on("click", function(){
+		var $id=$(this).attr('data-imageid');
+		del_galle(this, $link,$id); 
+   });
+}
+
+function insert_galle(name){
+    var formdata = new FormData();
+    formdata.append('img', $("#galle_img")[0].files[0]);
+    formdata.append('id', $("#add_more").data("value"));
+    $.ajax({
+        url: name + "OurEvents/addgallery",
+        data: formdata,
+        processData: false,
+        contentType: false,
+        type: "POST",
+        beforeSend: function (data) {
+            $(".status").html("Image is uploading....");
+        },
+        success: function (data) {
+            if (data == "successs") {
+                delete_image();
+            } else {
+                $("#gallery").append(data);
+                $("#galle_img").val("");
+                delete_image();
+            }
+            $(".status").html("");
+        },
+        error: function () {
+            console.log("error");
+            $(".status").html("Failed to upload an image.");
+        }
+    });
+}
+
+function del_galle($this, name,$id){
+	
+	//console.log(name + "OurEvents/del_image");
+
+    var formdata = new FormData();
+    formdata.append('id', $($this).data("img_id"));
+	 $.ajax({
+			url: name + "OurEvents/del_image/" + $id,
+			data: formdata,
+			processData: false,
+			contentType: false,
+			type: "POST",
+			beforeSend: function (data) {
+
+			},
+			success: function (data) {
+			
+				if (data == "success") {
+					//$($($this).parent("div").parent("li")).remove();
+					$($($this).closest("div")).remove();
+					/*var id = $($this).closest("div")).attr("id");
+					alert(id);
+					$($(this).closest("div")).remove();*/
+				} else {
+					alert("Deleting an image is failed.");
+				}
+			},
+			error: function () {
+				console.log("error");
+			}
+		});
+		
+	/*	$.ajax({
+		type    : 'POST',
+		url: name + "OurEvents/del_image",
+		success : function(){
+		
+		}
+	});*/
+   
+}

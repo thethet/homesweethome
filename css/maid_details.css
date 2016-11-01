@@ -1,0 +1,258 @@
+.sidebar {
+    margin-top: 15px;
+}
+.quick-search h4 {
+     font-family: 'OpenSans-Semibold';
+	color:#2e8ceb;
+}
+.filter-wrap {
+    border: 1px solid #E8E3E3;
+}
+.filter-hd h5 {
+  margin-top: 0px;
+	padding-top: 12px;
+	height: 40px;
+	padding-left: 20%;
+	color: #fff;
+	font-family: OpenSans-Semibold;
+	font-weight: bold;
+	font-size: 17px;
+}
+.filter-hd {
+     background-color: #1a81ea;
+	position:relative;
+}
+.filter .divider {
+    border-bottom: 1px solid #E8E3E3;
+    min-height: 38px;
+    padding-left: 25%;
+}
+.divider label {
+    line-height: 38px;
+	padding-left: 0px;
+	font-family: OpenSans-Regular;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgb(106, 109, 106);
+}
+.btndivider {
+    height: 65px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.btndivider .searchbtn {
+   	float: right;
+width: 84px;
+height: 30px;
+background-color: #1a81ea;
+border: 1px solid #1a81ea;
+color: #fff;
+font-family: OpenSans-Regular;
+}
+.searchmaid-img img {
+    width: 100%;
+    height: auto;
+}
+.maiddetail-header h2 {
+    color: #3791ec;
+    margin-bottom: 3px;
+	font-family: OpenSans-SemiboldItalic;
+}
+.detail-img img {
+    width: 100%;
+    height: auto;
+}
+.sidebar {
+    margin-top: 15px;
+}
+.searchmaid {
+    margin-top: 8px;
+}
+.maiddetail-header {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #aba8a8;
+    padding-bottom: 0px;
+}
+label.mlabel {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: #000;
+    font-family:Opensans-Regular;
+    float: left;
+    line-height: 20px;
+	clear:both;
+}
+.mwdata {
+    text-align: left;
+    color: #000;
+    font-size: 13px;
+    font-family: "Opensans";
+    float: left;
+	padding-left:9px;
+	text-align:justify;
+}
+.adlbl{
+	padding-right:20px;
+}
+.mdata {
+    width: 50%;
+    text-align: left;
+    color: #000;
+    font-size: 12px;
+     font-family:Opensans-Regular;
+    float: left;
+}
+.mdata-exp {
+    float: left;
+	width: 65%;
+	text-align: left;
+	color: #000;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 13px;
+	font-family: "Arial";
+}
+.star img {
+    float: left;
+}
+.maid-detail .divider{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.maid-intro h5 {
+	padding: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	font-family: Roboto-Regular;
+	margin-bottom: 0px;
+}
+.maid-intro-content {
+    color: red;
+     font-family:Raleway-Regular;
+    padding: 15px 15px;
+	margin-bottom:15px;
+	font-size:13px;
+}
+.salary{
+	color:red;
+}
+.wholemaid {
+    width: 100%;
+    display: block;
+    clear: both;
+    background-color: #e9e9e9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.filter.filter1 {
+    background-color: #fff;
+    margin-top: -9px;
+}
+.search-drop {
+    position: absolute;
+    top: 3px;
+    right: 17px;
+}
+.search-drop:hover {
+    cursor: pointer;
+}
+.searchmaid .aboutuswelcome {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.searchmaid h3 {
+    font-family: OpenSans-Semibold;
+    text-align: center;
+    color: #000;
+}
+.maid-detail td, .maid-detail th {
+    border: 1px solid gray;
+}
+#tbl{
+	font-family: OpenSans-Regular;
+	margin-top:35px;
+}
+#tbl thead{
+background: none repeat scroll 0 0 #cee6fe;
+}
+#tbl tr:nth-child(odd) td {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#tbl tr:nth-child(even) td {
+    background: none repeat scroll 0 0 #cee6fe;
+}
+.maidintroentire{
+	background-color: #edf1f6;
+padding: 10px;
+border: 1px solid lightgray;
+}
+.introhr img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.lintrocontent {
+    float: left;
+    width: 25px;
+}
+.rintrocontent {
+    overflow: hidden;
+}
+.introhd {
+    margin-left: 25px;
+}
+.maid-detail {
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px){
+.mworkdata {
+    width: 100%!important;
+}
+	.detail-img img {
+    width: 75%;
+    height: auto;
+}
+.detail-img img {
+    width: 100%;
+    height: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.maid-intro h5 {
+	text-align:center;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+.mdata-exp
+	 {
+	    padding-left: 0px;
+	    width: 100%;
+	}
+	.filter-hd h5 {
+	padding-left:4%;
+	}
+
+}
+@media screen and (min-width: 991px) and (max-width: 1168px){
+	.mdata-exp
+	 {
+	    padding-left: 0px;
+	    width: 100%;
+	}
+	.quick-search h4 {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+}	

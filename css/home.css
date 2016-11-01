@@ -1,0 +1,104 @@
+.home-section{
+	width:100%;
+	padding:0px;
+	background-color:#e3eefd;
+}
+.home-section-content img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.home-section-content h4,.home-section-content h3{
+    font-family: OpenSans-Semibold;
+	text-align:center;
+	color:#000;
+}
+.home-section-content span.homesweethome {
+    color: #00aff0;
+}
+.homesectiontext {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-family: OpenSans-Regular;
+	text-align: center;
+	font-size: 13px;
+}
+.home-featured-section{
+	background-color:#f2f2f2;
+}
+.featuremaid img.featurelogo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.featuremaid h3{
+	font-family: OpenSans-Semibold;
+	text-align:center;
+	color:#000;
+	margin-bottom:20px;
+}
+.homemaiditem img{
+	width:100%;
+	height:auto;
+}
+.homemaiditem {
+	margin-top:30px;
+	margin-bottom:15px;
+}
+.homemaiditem p {
+    margin-bottom: 3px;
+    font-family: OpenSans-Semibold;
+	color:#000;
+}
+.homemaiditem h5 {
+    font-family: OpenSans-Semibold;
+    color: #000;
+	margin-top:0px;
+}
+.homemaiditem .salary{
+	color:red;
+}
+.homemaiditem .viewdetails {
+    text-decoration: none;
+    border: 1px solid #159ee4;
+    width: 95px;
+    display: block;
+    text-align: center;
+    height: 27px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #159ee4;
+    font-family: OpenSans-Regular;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.featuremaid .viewall {
+    font-family: OpenSans-Regular;
+    background-image: url('../assets/images/viewall.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	width: 109px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 33px;
+	color: #fff;
+	text-decoration: none;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+.homemaiddescription{
+	padding-left:0px;
+	padding-right:0px;
+}
+@media screen and (max-width: 767px){
+.homemaiddescription {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+}

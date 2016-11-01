@@ -1,0 +1,59 @@
+$(document).ready(function(){
+	add_service();
+	add_extra();
+	del_service();
+	$(".collapse-link").trigger("click");
+	$($(".collapse-link")[0]).trigger("click");
+});
+
+function add_service(){
+	$(".add-service").on("click", function(){
+		var datatype = $(this).data("type");
+		$("#"+$(this).data("id")).append('<div class="my-service">'+
+				                            '<div class="form-group">'+
+				                                '<label class="control-label col-md-3">Title</label>'+
+				                                '<div class="col-md-9">'+
+				                                    '<input type="text" class="form-control" name="'+datatype+'" value="" rows="10">'+
+				                                '</div>'+
+				                            '</div>'+
+				                            '<div class="form-group">'+
+				                                '<label class="control-label col-md-3">Content</label>'+
+				                                '<div class="col-md-9">'+
+				                                    '<textarea class="form-control" name="'+datatype+'" rows="10"></textarea>'+
+				                                '</div>'+
+				                            '</div>'+
+				                            '<div class="form-group">'+
+				                                '<div class="col-md-12">'+
+				                                    '<a href="javascript:void(0)" class="del-service btn btn-danger pull-right">Delete</a>'+
+				                                '</div>'+
+				                            '</div>'+
+				                        '</div>');
+		del_service();
+	});
+}
+
+function add_extra(){
+	$(".add-extra").on("click", function(){
+		var datatype = $(this).data("type");
+		$("#"+$(this).data("id")).append('<div class="my-service">'+
+				                            '<div class="form-group">'+
+				                                '<label class="control-label col-md-3">Link</label>'+
+				                                '<div class="col-md-9">'+
+				                                    '<input type="text" class="form-control" name="'+datatype+'" value="" rows="10">'+
+				                                '</div>'+
+				                            '</div>'+
+				                            '<div class="form-group">'+
+				                                '<div class="col-md-12">'+
+				                                    '<a href="javascript:void(0)" class="del-service btn btn-danger pull-right">Delete</a>'+
+				                                '</div>'+
+				                            '</div>'+
+				                        '</div>');
+		del_service();
+	});
+}
+
+function del_service(){
+	$(".del-service").on("click", function(){
+		$($(this).parent().parent().parent()).remove();
+	});
+}

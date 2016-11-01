@@ -1,0 +1,58 @@
+.enquiry-content h4 {
+    font-family: 'Gabriela';
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+	margin-bottom:30px;
+}
+.divider{
+	display:block;
+	overflow:hidden;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.enquiry-content p {
+    font-family: 'Opensans';
+    font-size: 14px;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+textarea {
+    border: 1px solid #a9a9a9;
+    height: 150px;
+    padding: 5px;
+}
+.divider .frmlbl {
+    text-align: right;
+    float: left;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Opensans';
+}
+input.frmtxt[type="text"], input.frmtxt[type="email"] {
+    height: 32px;
+    border: 1px solid #a9a9a9;
+    padding: 5px;
+    float: left;
+}
+.divider .frmbtn {
+    text-align: center;
+    font-family: 'Gabriela';
+    height: 30px;
+    line-height: 24px;
+    font-size: 13px;
+    background-color: #37ceeb;
+    border: 1px solid #37ceeb;
+	padding-left:0px;
+	padding-right:0px;
+}
+.enquiry-content {
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 767px){
+.divider .frmlbl {
+	text-align: left;
+}
